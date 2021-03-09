@@ -2,18 +2,23 @@
 ----
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-<!-- <img src="assets/NNNNNNNNNNNNN" width="400"> -->
+<img src="assets/2021-03-09-13-03-28.png" width="400">
+
 <h2 align="center">Super simple website that just displays a fully blank black screen</h2>
 
 <h4 align="center">Used as my google chrome home screen so its not showing anything but black screen</h4>
 
 
 # Quick start
-<!-- ### __________________ -->
+### Demo [Click Here](http://www.orancollins.com:11111/)
 
-##### Run with docker
+#### Run with docker
 ```bash
+cd ~ 
+wget https://raw.githubusercontent.com/wisehackermonkey/blank-black-website/master/docker-compose.yml
+docker-compose up -d
 ``` 
+#### visit: `localhost:11111` in your browser
 
 
 # Summary
@@ -27,7 +32,13 @@
 
 
 # Installation
+### Build & run from source
 ```bash
+cd ~
+git clone https://github.com/wisehackermonkey/blank-black-website.git
+cd blank-black-website
+docker-compose  -f  docker-compose.debug.yml  build   
+docker-compose  -f  docker-compose.debug.yml up
 ```
 
 <!-- ----------------- -->
@@ -48,6 +59,7 @@ docker login
 docker push wisehackermonkey/blank-black-website:latest
 ```
 
+
 -----------------
 # Contributors
 
@@ -63,7 +75,7 @@ docker push wisehackermonkey/blank-black-website:latest
 by oran collins
 github.com/wisehackermonkey
 oranbusiness@gmail.com
-______________________
+20210309
 ```
 
 
@@ -135,16 +147,7 @@ ______________________
 
 
 
-# Installation
-### Build& run from source
-```bash
-cd ~
-git clone https://github.com/wisehackermonkey/blank-black-website.git
-cd blank-black-website
-docker-compose  -f  docker-compose.debug.yml  build   
-docker-compose  -f  docker-compose.debug.yml up
 
-```
 
 <!-- 
 
