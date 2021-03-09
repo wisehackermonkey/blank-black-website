@@ -22,9 +22,9 @@ docker-compose up -d
 
 
 # Summary
-<!-- ### -  *[Quick start](#Quick-start)*
+### -  *[Quick start](#Quick-start)*
 ### -  *[Installation](#Installation)*
-### -  *[For developers](#For-developers)* -->
+### -  *[For developers](#For-developers)*
 ### -  *[Contributors](#Contributors)*
 ### -  *[License](#License)*
 
