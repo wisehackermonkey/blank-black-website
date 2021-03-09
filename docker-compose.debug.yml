@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  blank-black-website:
+    image: blank-black-website
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - './public:/usr/share/nginx/html'
+    ports:
+        - '80:80'

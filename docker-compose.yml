@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    blank-black-website:
+        labels: 
+            com.centurylinklabs.watchtower.enable: true
+        restart: always
+        container_name: blank-black-website
+        ports:
+            - '80:80'
+        image: 'wisehackermonkey/blank-black-website:latest'
